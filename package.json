@@ -1,0 +1,11 @@
+{
+  "name": "Player",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "album-art": "^1.0.2",
+    "express": "^4.13.3",
+    "express3-handlebars": "^0.5.2",
+    "node-internet-radio": "^0.1.0"
+  }
+}

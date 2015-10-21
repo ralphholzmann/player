@@ -1,0 +1,63 @@
+body {
+  background-color: #eee;
+}
+
+#playerWrap {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgrey;
+  width: 500px;
+  height: 320px;
+  border: 3px solid darkgrey;
+  border-radius: 10px;
+}
+
+#player {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 70px);
+}
+
+#logo img {
+  width: 200px;
+  padding-top: 10px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
+#liveInfo {
+  width: 470px;
+  height: 80px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#livePic {
+  width: 85px;
+  height: 85px;
+  border: 1px solid darkgrey;
+  border-radius: 8px;
+  overflow: hidden;
+  float: left;
+}
+
+#livePic img {
+  width: 101%;
+  height: 101%;
+}
+
+#liveText {
+  float: right;
+  width: 380px;
+  height: 85px;
+}
+
+#title {
+  font-weight: bold;
+}
