@@ -32,7 +32,7 @@ albumArt(artist, title, 'large', function (err, url) {
     url = "img/default.png";
   }
 
-//Send song info to HTML.
+//Send info to HTML.
   app.get('/', function(req, res) {
     res.render('index', {
       title: title,
